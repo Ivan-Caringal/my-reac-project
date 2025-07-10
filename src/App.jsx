@@ -6,6 +6,7 @@ import Testbig from './components/Testbig'
 import Testsmall from './components/testsmall'
 import LearnEvent from './components/LearnEvent'
 import LearnLiftingstateup from './components/LearnLiftingstateup'
+import LearnUseState from './components/LearnUseState'
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
       {/* <LearnReact /> */}
       {/* <LearnProps stock="AAPL" stockprice={price} /> */}
       {/* <LearnEvent /> */}
-      <LearnLiftingstateup getName={getName} />
+      {/* <LearnLiftingstateup getLame={getName} /> */}
+      <LearnUseState />
 
       
       

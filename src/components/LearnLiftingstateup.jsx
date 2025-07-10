@@ -3,7 +3,7 @@ import React from 'react'
 const LearnLiftingstateup = (props) => {
     const handleClick = () => {
         let stock = "AAPL"
-        props.getName(stock)
+        props.getLame(stock)
     }
   return (
     <>
